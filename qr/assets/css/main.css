@@ -1,0 +1,27 @@
+body {
+    /*overflow: hidden;*/
+    background-color:hsl(212, 45%, 89%);
+}
+
+.img{
+    padding: 20px;
+    border-radius: 30px;
+
+}
+.bold{
+    color:  hsl(218, 44%, 22%);
+    font-weight: 600;
+    font-size: 20px;
+}
+.card{
+     border-radius: 20px;
+     margin-left: 40%;
+     margin-top: 90px;
+}
+
+
+@media (max-width:750px) {
+    .card{
+        margin-left: 15%;
+    }
+}
